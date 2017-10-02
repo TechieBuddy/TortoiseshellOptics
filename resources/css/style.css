@@ -25,13 +25,42 @@ body {
 .logo-container {
   background-color: cadetblue;
   display: flex;
+  align-items: center;
+  position: relative;
+  top: 1rem;
 }
 
 .logo-container span {
   font-size: 1rem;
+  color: white;
 }
 
 .logo {
   display: flex;
   flex-grow: 1;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+}
+
+.logo span {
+  padding: 1rem;
+}
+
+nav span {
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.banner-content {
+  background-color: white;
 }
