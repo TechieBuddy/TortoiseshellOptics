@@ -141,3 +141,18 @@ a:link {
 .content {
   margin-top: 1rem;
 }
+
+/****Footer****/
+.footer-content {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content img {
+  height: 1.5rem;
+  padding-top: 4rem;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
