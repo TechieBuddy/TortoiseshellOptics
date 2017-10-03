@@ -1,15 +1,22 @@
 html {
   font-size: 18px;
-  line-height: 1.4;
+
 }
 
 body {
   font-family: Helvetica;
+  line-height: 1.4;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+/***Remove when done****/
+
+div {
+  border: 1px solid black;
 }
 
 /****Main banner****/
@@ -75,4 +82,62 @@ a:link {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+/****Services****/
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  width: 5rem;
+  margin: 3rem;
+
+}
+
+.exams-image img {
+  width: 3.5rem;
+}
+
+.fittings-image img {
+  width: 5rem;
+}
+
+.delivery-image img {
+  width: 5rem;
+}
+
+.image {
+  height: 8rem;
+}
+
+/****Philosphy and Appointments section****/
+.philo-appts {
+  display: flex;
+}
+
+.contents-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.content-tag {
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.philo {
+  margin-right: 5%;
+}
+
+.content {
+  margin-top: 1rem;
 }
