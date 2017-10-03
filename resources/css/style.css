@@ -91,9 +91,13 @@ a:link {
 }
 
 .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 5rem;
+  height: 8rem;
   margin: 3rem;
-
 }
 
 .exams-image img {
@@ -108,8 +112,8 @@ a:link {
   width: 5rem;
 }
 
-.image {
-  height: 8rem;
+.service-desc {
+  text-align: center;
 }
 
 /****Philosphy and Appointments section****/
