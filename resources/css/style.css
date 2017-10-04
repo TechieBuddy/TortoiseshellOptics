@@ -68,13 +68,17 @@ a:link {
     color: white;
 }
 
+.tablet-display {
+  display: none;
+}
+
 .banner-content {
   display: inline-block;
   background-color: white;
   padding: 1.5rem 5rem;
   position: relative;
   top: 10rem;
-  right: -40%;
+  right: -40%;;
 }
 
 .banner-content span {
@@ -159,4 +163,62 @@ a:link {
   padding-right: 1rem;
   padding-bottom: 4rem;
   padding-left: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-container {
+    position: relative;
+    top: 0;
+  }
+
+  .main-banner {
+    height: 22rem;
+  }
+
+  .banner-content {
+    padding: 0.75rem 4rem;
+    position: relative;
+    top: 5rem;
+    right: 100%-2rem;
+  }
+
+  .banner-content span {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .deskop-display {
+    display: none;
+  }
+
+  .phone-display {
+    display: block;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .main-banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .banner-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 9rem;
+    left: 0;
+    width: 100%;
+  }
+
+  .banner-content span {
+    font-size: 1rem;
+  }
+
 }
