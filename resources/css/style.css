@@ -221,4 +221,48 @@ a:link {
     font-size: 1rem;
   }
 
+  .services {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+
+  .service {
+    margin: 0.77rem;
+  }
+
+  .service-desc span {
+    font-size: 0.77rem;
+  }
+
+  .philo-appts {
+    flex-direction: column;
+  }
+
+  .contents-box {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .content-tag {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content span {
+    font-size: 0.77rem;
+  }
+
+  .content {
+    margin-top: 1rem;
+  }
+
+  .footer-content span {
+    display: none;
+  }
+
+  .footer-content {
+    justify-content: center;
+  }
 }
